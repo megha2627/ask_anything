@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ask Anything - Flask + AI</title>
+</head>
+<body>
+    <h2>Ask Anything!</h2>
+    <form method="POST">
+        <input type="text" name="question" placeholder="Type your question..." required>
+        <button type="submit">Ask</button>
+    </form>
+    
+    {% if answer %}
+        <h3>Answer:</h3>
+        <p>{{ answer }}</p>
+    {% endif %}
+</body>
+</html>
