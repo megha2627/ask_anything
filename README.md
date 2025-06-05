@@ -11,7 +11,7 @@ A basic web application built using **Flask** and **Hugging Face Transformers** 
 - Displays AI answers dynamically on the webpage
 - Simple and easy to understand for beginners learning Flask and AI integration
 
----
+
 
 ## Technologies Used
 
