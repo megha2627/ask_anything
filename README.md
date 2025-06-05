@@ -38,12 +38,16 @@ Install dependencies:
 
 bash
 python -m pip install flask transformers torch
+
 Usage
+
 Run the Flask app:
 
 bash
 python app.py
+
 Open your browser and go to:
+
 http://127.0.0.1:5000
 
 Type any question and press Ask to get an AI-generated answer.
